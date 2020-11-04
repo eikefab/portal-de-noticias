@@ -22,11 +22,12 @@ img.news-img {
     width: 560px;
 }
 div.comment {
-    background-color: rgb(233, 233, 233);
+    background-color: wheat;
 }
 
 div.news-content {
     max-height: 85vh;
     padding-left: 5px;
     overflow-y: scroll;
+    
 }

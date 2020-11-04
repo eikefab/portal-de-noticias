@@ -1,6 +1,7 @@
 body{
     max-width: 1300px;
-    min-width: 1200px;
+    min-width: 720px;
+    background-color: rgb(255, 254, 236);
 }
 
 h1{
@@ -64,8 +65,7 @@ div.texbox1{
 }
 
 div.texbox2{
-    margin-top: 50px;
-    margin-bottom: 100px;
+    margin-top: 0px;
     display: inline-block;
     width: 500px;
     background-color: wheat;
@@ -78,6 +78,10 @@ div.texbox2{
 }
 
 footer{
+    margin-top: 50px;
     display: block;
-    text-align: center;
+    max-width: 1000px;
+    margin-left: auto;
+    padding-left: 120px;
+    margin-right: -70px;
 }

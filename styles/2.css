@@ -1,3 +1,7 @@
 div[class="container"] {
     margin-top: 50px;
 }
+
+body{
+    background-color: rgb(255, 254, 236);
+}
