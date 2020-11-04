@@ -1,8 +1,10 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Trispace:wght@300&display=swap');
 
 p {
+    font-family: 'Trispace', sans-serif;
     font-size: 12pt;
-    text-indent: 10px;
+    text-indent: 20px;
     text-align: justify;
     margin: 0px 5px;
     padding-top: 5px;
@@ -18,15 +20,25 @@ div.img-comment {
     padding-right: 10px;
     
 }
+
+h1.titulo {
+    color: green;
+    padding: 5px 5px 15px 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
 img.news-img {
-    width: 560px;
+    width: 100%;
 }
 div.comment {
     background-color: wheat;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 div.news-content {
-    max-height: 85vh;
+    max-height: 110vh;
     padding-left: 5px;
     overflow-y: scroll;
     

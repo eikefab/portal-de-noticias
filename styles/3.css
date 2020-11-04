@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Trispace:wght@300;400;500;600&display=swap');
+
 body{
     max-width: 1300px;
     min-width: 720px;
@@ -42,38 +44,41 @@ img.img1{
     display: inline-block;
     margin-left: 500px;
     margin-bottom: 100px;  
-    margin-top: -200px; 
+    margin-top: -280px; 
     border: black solid 10px; 
     border-radius: 10px;
 }
 
 img.img2{
     display: inline-block;
-    margin-top: -336px;
+    margin-top: -436px;
     background-color: hotpink;
     margin-left: 60px;
-    border: black solid 10px;
-    border-radius: 10px;
+    border: w solid 10px;
+    border-radius: 10px 0px 0px 10px;
     margin-right: -4px;
+    height: 400px;
 }
 
 div.texbox1{
+    font-family: "Trispace", sans-serif;
     margin-top: 100px;
     width: 500px;
-    margin-bottom: -190px;
+    margin-bottom: -177px;
     
 }
 
 div.texbox2{
+    font-family: "Trispace", sans-serif;
     margin-top: 0px;
     display: inline-block;
-    width: 500px;
+    width: 530px;
     background-color: wheat;
     padding: 2px;
-    border-bottom-right-radius: 10px;
-    border-top-right-radius: 10px;
+    border-radius: 10px;
     padding-left: 15px;
     padding-right: 5px;
+    margin-left: -1px;
     
 }
 
