@@ -1,9 +1,13 @@
 .container {
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .container .text {
     margin-top: 20px;
+}
+
+.container .text h6 {
+    padding-bottom: 20px;
 }
 
