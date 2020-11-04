@@ -1,14 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Trispace:wght@300;400;500;600&display=swap');
 
 body{
-    background-color: rgb(255, 254, 236);
+    background-color: beige;
     max-width: 1300px;
-    min-width: 720px;
+    min-width: 1300px;
 }
 
 h1{
     text-align: center;
     color: green;
+}
+
+p{
+    text-indent: 15px;
 }
 
 p.text1{ 
@@ -54,7 +58,7 @@ img.img2{
     margin-top: -436px;
     background-color: hotpink;
     margin-left: 60px;
-    border: w solid 10px;
+    border: solid 10px;
     border-radius: 10px 0px 0px 10px;
     margin-right: -4px;
     height: 400px;

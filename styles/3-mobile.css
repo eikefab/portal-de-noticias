@@ -1,5 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Trispace:wght@300;400;500;600&display=swap');
 
 body{
-    background-color: rgb(255, 254, 236)
+    background-color: beige
+}
+
+h1{
+    text-align: center;
+    color: green;
+}
+
+img.img1, img.img2{
+    margin-top: 20px;
+    margin-bottom: 25px;
+    width: 500px;
+}
+
+p{
+    text-indent: 15px;
+}
+
+footer{
+    margin-top: 30px;
+    display: block;
+    text-align: center;
 }
