@@ -10,6 +10,10 @@ p {
     padding-top: 5px;
 }
 
+body{
+    background-color: rgb(255, 254, 236)
+}
+
 div.container-all {
     display: flex;
     flex-direction: row;
