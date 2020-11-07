@@ -54,7 +54,13 @@
     <!-- Conteúdo -->
     <div class="container">
         <div class="media">
-            <img src="../images/ifal_2.jpg" class="mr-3" alt="thumbnail" />
+            <picture>
+                <source media="(min-width:650px)" srcset="../images/ifal_2_med.jpg">
+                <source media="(min-width:465px)" srcset="../images/ifal_2_small.jpg">
+
+                <img src="../images/ifal_2_med.jpg" class="mr-3" alt="thumbnail" />
+            </picture>
+
             <div class="media-body">
                 <h5 class="mt-0">IFAL realiza seleções complementares para atuar no Pibid e Residência Pedagógica</h5>
                 <h6 class="mt-1">Pleitos são voltados a docentes e alunos das áreas de Biologia, Letras, Química e
