@@ -2,11 +2,12 @@
 
 body{
     background-color: rgb(248, 248, 230);
-    max-width: 1300px;
     min-width: 1300px;
+    
 }
 
 h1{
+    align-self: center;
     text-align: center;
     color: green;
 }
@@ -20,7 +21,6 @@ p.text1{
     text-align: center;
     font-family: sans-serif;
     font-size: 18px;
-    margin-left: 30px;
     margin-bottom: 0px;
 }
 
@@ -46,30 +46,36 @@ p.text3{
 
 img.img1{
     display: inline-block;
-    margin-left: 500px;
     margin-bottom: 100px;  
-    margin-top: -280px; 
+    margin-top: -290px; 
     border: black solid 10px; 
     border-radius: 10px;
+    margin-left: -4px;
+    max-height: 500px;
+    min-height: 400px;
+    height: 26vw;
 }
 
 img.img2{
     display: inline-block;
     margin-top: -436px;
     background-color: hotpink;
-    margin-left: 60px;
     border: solid 10px;
     border-radius: 10px 0px 0px 10px;
     margin-right: -4px;
-    height: 400px;
+    max-height: 400px;
+    min-height: 300px;
+    height: 20vw;
+    margin-left: calc(45vw - 500px);
 }
 
 div.texbox1{
+    display: inline-block;
     font-family: "Trispace", sans-serif;
     margin-top: 100px;
     width: 500px;
     margin-bottom: -177px;
-    
+    margin-left: calc(48vw - 600px);
 }
 
 div.texbox2{
@@ -86,11 +92,11 @@ div.texbox2{
     
 }
 
+
 footer{
+    display:block;
     margin-top: 50px;
-    display: block;
-    max-width: 1000px;
+    text-align: center;
+    align-items: center;
     margin-left: auto;
-    padding-left: 120px;
-    margin-right: -70px;
 }
