@@ -22,7 +22,6 @@ div.container-all {
 div.img-comment {
     border-right: 1px solid rgb(100, 100, 100);
     padding-right: 10px;
-    
 }
 
 h1.titulo {
@@ -32,8 +31,18 @@ h1.titulo {
     border-top-right-radius: 10px;
 }
 
+div.card-container {
+    box-shadow: -2px 2px 5px gray;
+    border: 4px solid rgb(150, 255, 146);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
 img.news-img {
     width: 100%;
+    
+    border-bottom: 0px;
+    
 }
 div.comment {
     background-color: wheat;
@@ -47,3 +56,18 @@ div.news-content {
     overflow-y: scroll;
     
 }
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(255, 255, 255);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(147, 255, 137);
+    border-radius: 10px 10px 10px 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(91, 214, 87);
+  }
