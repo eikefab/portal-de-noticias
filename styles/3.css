@@ -2,8 +2,6 @@
 
 body{
     background-color: rgb(248, 248, 230);
-    min-width: 1300px;
-    
 }
 
 h1{
@@ -21,82 +19,73 @@ p.text1{
     text-align: center;
     font-family: sans-serif;
     font-size: 18px;
-    margin-bottom: 0px;
+    margin-bottom: 50px;
 }
 
 p.text2{
-    display: inline;
-    text-align: justify;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    font-size: 1.2vw;
 }
 
 p.text3{
     display: inline-block;
     margin-top: 20px;
     margin-bottom: 0px;
-    margin-left: 50px;
-    font-size: 20px;
-    background-color: wheat;
-    padding-left: 20px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    border-bottom-left-radius: 10px;
-    border-top-left-radius: 10px;
-    padding-right: 10px;
+    margin-left: 20px;
+    font-size: 1.44vw;
 }
 
 img.img1{
     display: inline-block;
-    margin-bottom: 100px;  
-    margin-top: -290px; 
     border: black solid 10px; 
     border-radius: 10px;
     margin-left: -4px;
-    max-height: 500px;
-    min-height: 400px;
-    height: 26vw;
+    margin-right: -50px;
+    width: 51%;
+    vertical-align: baseline;
 }
 
 img.img2{
     display: inline-block;
-    margin-top: -436px;
-    background-color: hotpink;
     border: solid 10px;
     border-radius: 10px 0px 0px 10px;
-    margin-right: -4px;
-    max-height: 400px;
-    min-height: 300px;
-    height: 20vw;
-    margin-left: calc(45vw - 500px);
+    width: 45%;
+    margin-left: 10px;
+    margin-bottom: 50px;
+    vertical-align: bottom;
 }
 
 div.texbox1{
+    background-color: wheat;
     display: inline-block;
     font-family: "Trispace", sans-serif;
-    margin-top: 100px;
-    width: 500px;
-    margin-bottom: -177px;
-    margin-left: calc(48vw - 600px);
+    width: 40vw;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10vh;
 }
 
 div.texbox2{
-    font-family: "Trispace", sans-serif;
-    margin-top: 0px;
-    display: inline-block;
-    width: 530px;
     background-color: wheat;
+    font-family: "Trispace", sans-serif;
+    display: inline-block;
+    width: 42vw;
     padding: 2px;
     border-radius: 10px;
-    padding-left: 15px;
-    padding-right: 5px;
-    margin-left: -1px;
-    
 }
 
+.grid{
+    text-align: center;
+    align-items: center;
+}
 
 footer{
     display:block;
-    margin-top: 50px;
+    margin-top: 100px;
     text-align: center;
     align-items: center;
-    margin-left: auto;
 }
