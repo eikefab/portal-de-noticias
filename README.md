@@ -12,6 +12,6 @@ Projeto referente a atividade no componente de Programação para Web I, utiliza
 
 # Onde encontrar o que foi requisitado
 
-<b>Para encontrar de forma mais fácil, [clique aqui](https://eikefab.github.io/portal-de-noticias/wiki)</b>
+Para encontrar de forma mais fácil, [clique aqui](https://eikefab.github.io/portal-de-noticias/wiki).
 
 
