@@ -15,6 +15,10 @@ div.container-all {
     padding: 15px;
 }
 
+div.img-comment {
+    border-bottom: 1px solid rgb(100, 100, 100);
+}
+
 h1.titulo {
     color: green;
     padding: 5px 5px 15px 10px;
@@ -23,7 +27,7 @@ h1.titulo {
 }
 div.card-container {
     border: 3px solid rgb(74, 124, 73);
-    
+    margin-bottom: 10px;
 }
 div.card-container p{
     font-size: 10pt;
@@ -42,7 +46,10 @@ div.comment {
 }
 
 div.news-content {
+    background-color: rgba(167, 167, 167, 0.2);
     margin-top: 10px;
+    max-height: 60vh;
+    overflow-y: scroll;
 }
 
 ::-webkit-scrollbar {
@@ -50,7 +57,7 @@ div.news-content {
 }
 
 ::-webkit-scrollbar-track {
-    background: rgb(255, 255, 255);
+    background: rgb(231, 231, 231);
 }
 
 ::-webkit-scrollbar-thumb {
