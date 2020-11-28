@@ -3,4 +3,14 @@ form {
     border-radius: 5px;
     box-shadow: 10px 10px 30px 0px #383838;
     flex-direction: column;
+    max-width: 23rem;
+    transition: all 0.5s;
+}
+
+@media screen and (max-width: 640px) {
+
+    form {
+        width: 15rem;
+    }
+
 }
