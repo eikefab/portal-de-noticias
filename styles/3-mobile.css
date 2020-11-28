@@ -8,7 +8,8 @@ h1{
 img.img1, img.img2{
     margin-top: 20px;
     margin-bottom: 25px;
-    width: 500px;
+    width: 100vw;
+    margin-right: auto;
 }
 
 p{
