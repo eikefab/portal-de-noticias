@@ -13,9 +13,9 @@ footer {
     height: 100%;
 }
 
-div[class="card"] {
+.card {
     box-shadow: 0px 0px 20px -8px rgba(0,0,0,0.75);
-    border-radius: 15px;
+    border-radius: 0px 0px 15px 15px;
     transition: all 0.6s;
     margin-top: 20px;
 }
