@@ -7,10 +7,19 @@ form {
     transition: all 0.5s;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 720px) {
 
     form {
-        width: 15rem;
+        max-width: 15rem;
     }
 
 }
+
+@media screen and (min-width: 720px) and (max-width: 1140px) {
+
+    form {
+        -ms-scroll-snap-x: 18rem;
+    }
+
+}
+
