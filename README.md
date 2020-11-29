@@ -10,7 +10,7 @@ Projeto referente a atividade no componente de Programação para Web I, utiliza
 * [Lucas Matheus Viera Lúcio](https://github.com/Casterrr) <i>913-B</i>
 * [Nikolas dos Santos Accioly](https://github.com/nikeito) <i>913-B</i>
 
-# Onde encontrar o que foi requisitado
+# Onde encontrar o que foi pedido
 
 Para encontrar de forma mais fácil, [clique aqui](https://github.com/eikefab/portal-de-noticias/wiki).
 
