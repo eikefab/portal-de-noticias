@@ -39,11 +39,40 @@ img.news-img {
     border-bottom: 0px;
     
 }
-div.comment {
+button.toggle-hidden {
+    width: 100%;
+    background-color: #4CAF50;
+    border: none;
+    outline:none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition: background-color 0.2s
+}
+
+button.toggle-hidden:hover{
+    background-color: #3b883d;
+}
+
+button.toggle-hidden:active{
+    background-color: #225024;
+}
+
+div.comment-visible {
     background-color: rgb(187, 241, 192);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
+div.comment-hidden {
+    display: none;
+    background-color: rgb(187, 241, 192);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
 
 div.news-content {
     background-color: rgba(167, 167, 167, 0.2);
